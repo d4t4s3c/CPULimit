@@ -4,7 +4,7 @@
 
 ![](/screenshot/1.png)
 
-![](/screenshot/2.png)
+![](/screenshot/02.png)
 
 ![](/screenshot/3.png)
 
@@ -14,4 +14,4 @@
 
 ![](/screenshot/6.png)
 
-![](/screenshot/7.png)
+![](/screenshot/07.png)
