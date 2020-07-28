@@ -1,4 +1,4 @@
-# cpulimit Linux Privilege Escalation
+# CPULimit Linux Privilege Escalation
 
 **Screenshot**
 
