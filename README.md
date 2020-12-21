@@ -2,7 +2,7 @@
 
 ```bash
 www-data@victim:~$ whoami
-victim
+www-data
 www-data@victim:~$ find / -perm -4000 2>/dev/null
 /usr/bin/cpulimit
 www-data@victim:~$ cd /tmp
