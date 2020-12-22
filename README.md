@@ -1,7 +1,6 @@
 # CPULimit Linux Privilege Escalation
 
-**Run**
-
+**Run:**
 ```bash
 user@victim:~$ whoami && id && hostname
 user
@@ -29,5 +28,4 @@ bash-5.0#
 ```
 
 **Screenshot**
-
 ![](/screenshot.png)
