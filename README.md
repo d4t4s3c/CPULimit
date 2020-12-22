@@ -25,3 +25,7 @@ uid=1000(user) gid=1000(user) euid=0(root) egid=0(root) grupos=0(root),24(cdrom)
 victim
 bash-5.0# 
 ```
+
+**Screenshot**
+
+![](/screenshot.png)
