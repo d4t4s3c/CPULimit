@@ -1,7 +1,6 @@
 # CPULimit Linux Privilege Escalation
 
-**Run:**
-```bash
+**Run:** ```bash
 user@victim:~$ whoami && id && hostname
 user
 uid=1000(user) gid=1000(user) grupos=1000(user),24(cdrom),25(floppy),29(audio),30(dip),44(video),46(plugdev),109(netdev)
