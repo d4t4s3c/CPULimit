@@ -1,5 +1,7 @@
 # CPULimit Linux Privilege Escalation
 
+**Run**
+
 ```bash
 user@victim:~$ whoami && id && hostname
 user
