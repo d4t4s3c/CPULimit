@@ -23,20 +23,20 @@ cu4='[x]'
 
 function check(){
          echo ""
-	       echo -e "$a$cu3$b checking.. $nc"
-	       sleep 3
+	 echo -e "$a$cu3$b checking.. $nc"
+	 sleep 3
          find / -perm -4000 2>/dev/null | grep "cpulimit" > /dev/null 2>&1
     if [ "$(echo $?)" == "0" ]; then
-	       echo ""
-	       echo -e "$v$cu1$b target is vulnerable $nc"
-	       sleep 4
+	 echo ""
+	 echo -e "$v$cu1$b target is vulnerable $nc"
+	 sleep 4
     else
          echo ""
-	       echo -e "$r$cu4$b target no vulnerable $nc"
-	       sleep 4
-	       echo ""
+	 echo -e "$r$cu4$b target no vulnerable $nc"
+	 sleep 4
+	 echo ""
          tput cnorm
-	       exit 1
+	 exit 1
     fi
 }
 
