@@ -1,4 +1,4 @@
-# CPULimit Linux Privilege Escalation
+# CPULimit Linux Privilege Escalation (Abusing SUID)
 
 
 ```bash
