@@ -10,6 +10,6 @@ user@victim:/tmp$ ./suid_root.sh
 
 **Check Vulnerable**
 
-``YES`
+`YES`
 
 ![](/01.png)
