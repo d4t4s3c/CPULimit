@@ -1,7 +1,7 @@
 # CPULimit Linux Privilege Escalation (Abusing SUID)
 
 
-```bash
+```cmd
 user@victim:~$ whoami
 user
 user@victim:~$ find / -perm -4000 2>/dev/null | grep "cpulimit"
