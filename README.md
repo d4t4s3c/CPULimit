@@ -8,6 +8,8 @@ user@victim:/tmp$ chmod +x suid_root.sh
 user@victim:/tmp$ ./suid_root.sh 
 ```
 
-**Screenshot**
+**Check Vulnerable**
+
+``YES`
 
 ![](/01.png)
