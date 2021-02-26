@@ -10,4 +10,4 @@ user@victim:/tmp$ ./suid_root.sh
 
 **Screenshot**
 
-![](/screenshot.png)
+![](/01.png)
