@@ -1,4 +1,4 @@
-# CPULimit Linux Privilege Escalation (Abusing SUID)
+# CPULimit Linux Privilege Escalation `(Abusing SUID)`
 
 
 ```cmd
