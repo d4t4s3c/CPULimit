@@ -1,4 +1,6 @@
-# Linux Privilege Escalation `Abusing SUID Permissions `
+# Linux Privilege Escalation
+
+`Abusing SUID Permissions `
 
 
 ```cmd
